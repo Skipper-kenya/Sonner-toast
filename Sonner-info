@@ -53,3 +53,9 @@ toast.promise(promise, {
   },
   error: 'Error',
 });
+
+
+#POSITIONING THE NOTIFICATION ON A WEB PAGE
+<Toaster position="bottom-right" />
+
+possible positions  = top-left,top-center,top-right,bottom-left,bottom-center,bottom-right
