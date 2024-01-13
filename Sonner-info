@@ -1,18 +1,26 @@
 # Sonner-toast
-#what is sonner? 
+# WHAT IS SONNER? 
 
 it is a toast component for React.
 
-#what is sonner used for? 
+
+
+
+# WHAT IS SONNER USED FOR? 
 
 tired of using alerts in your website? , sonner with three easy steps provides an amazing alert notifications.
 
-#installation? 
+
+
+
+# INSTALLATION? 
 
 npm install sonner
 
 
-#USAGE? 
+
+
+# USAGE? 
 
 Render the toaster in the root of your app.
 import { Toaster, toast } from 'sonner'
@@ -31,7 +39,13 @@ function App() {
 }
 
 
-#TYPES
+
+
+
+
+# TYPES
+
+
 toast.success('my success message')
 tost.error('error message')
 toat.info('info message')
@@ -55,7 +69,12 @@ toast.promise(promise, {
 });
 
 
+
+
+
 #POSITIONING THE NOTIFICATION ON A WEB PAGE
+
+
 <Toaster position="bottom-right" />
 
 possible positions  = top-left,top-center,top-right,bottom-left,bottom-center,bottom-right
